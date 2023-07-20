@@ -815,7 +815,7 @@ footer span a:hover {
   }
 }
 
-@media (max-width: 1104px) {
+@media (max-width: 1300px) {
   .about .about-content .left img {
     height: 350px;
     width: 350px;
@@ -824,11 +824,29 @@ footer span a:hover {
     bottom: -8px;
     font-size: 16px;
   }
+  .home {
+    width: 200vh;
+  }
+  .about {
+    width: 200vh;
+  }
+  .container {
+    width: 200vh;
+  }
 }
 
 @media (max-width: 991px) {
   .social-menu ul li a {
     left: 114px;
+  }
+  .home {
+    width: 200vh;
+  }
+  .about {
+    width: 200vh;
+  }
+  .container {
+    width: 200vh;
   }
 }
 
@@ -862,6 +880,9 @@ footer span a:hover {
     margin: 20px 0;
     font-size: 25px;
   }
+  .home {
+    width: 150vh;
+  }
   .home .home-content .text-2 {
     font-size: 70px;
   }
@@ -875,6 +896,9 @@ footer span a:hover {
   .max-width {
     max-width: 930px;
   }
+  .about {
+    width: 150vh;
+  }
   .about .about-content .column {
     width: 100%;
   }
@@ -885,6 +909,11 @@ footer span a:hover {
   }
   .about .about-content .right {
     flex: 100%;
+  }
+  .container {
+    width: 150vh;
+    display: flex;
+    flex-direction: column;
   }
   .services .serv-content .card {
     width: calc(50% - 10px);
